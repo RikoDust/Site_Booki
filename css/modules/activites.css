@@ -1,0 +1,47 @@
+/******* Activités *********/
+
+.activites-title{
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.activites-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.activites-cards .card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.activites-cards a{
+    display: flex;
+    flex-direction: row;
+    width: 23%;
+}
+
+.activites-cards article{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.activites-cards img{
+    height: 380px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: fill;
+}
+
+.activités-Marseille .card-title{
+    padding-left: 15px;
+}
+

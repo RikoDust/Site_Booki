@@ -1,0 +1,145 @@
+/****** Trouvez votre hebergement - recherche/filtres ******/
+
+.trouvez-hebergement{
+    display: flex;
+}
+
+.trouvez-hebergement-title{
+    margin-bottom: 0px;
+}
+
+.trouvez-hebergement-p{
+    margin-top: 8px;
+}
+
+
+/*** recherche ***/
+
+.bouton-rechercher{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-weight: 700;
+    box-shadow: none;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    height: 55px;
+    width: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-search{
+    display: flex;
+    margin-top: 35px;
+}
+
+.grey-square{
+    background-color: var(--main-bg-color);
+    width: 55px;
+    height: 55px;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-loc{
+    font-size: 18px;
+}
+
+.grey-square i{
+    color: black;
+}
+
+input{
+    height: 49px;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+    border-top: 2px solid var(--main-bg-color);
+    border-bottom: 2px solid var(--main-bg-color);
+    outline: none;
+}
+
+::placeholder{
+    color: var(--black-color);
+}
+
+
+/*** bouton recherche ***/
+
+.bouton-rechercher .icon-loupe{
+    display: none;
+}
+
+/* penser au CSS pour le media query*/
+
+
+
+/*** filtres ***/
+
+.filtres-zone{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.filtres-zone-bouton{
+    display: flex;
+}
+
+
+.filtres-title{
+    margin-right: 15px;
+}
+
+
+.filtres-bouton{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border: solid 2px var(--main-bg-color);
+    background-color: var(--white-color);
+    height: 50px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.filtres-bouton i{
+    padding-right: 8px;
+    font-size: 18px;
+}
+
+.filtres-bouton:hover{
+    background-color: var(--filter-bg-color);
+}
+
+
+/*** ligne info ***/
+
+.icon-info{
+    border-radius: 50%;
+    border: 1px solid grey;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-line{
+    display: flex;
+    align-items: center;
+}
+
+.info-line i{
+    margin-right: 10px;
+}
+

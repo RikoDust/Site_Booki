@@ -1,0 +1,35 @@
+/****** header - navigation ******/
+
+/*** header ***/
+
+.headerBar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.headerBar-icon{
+    width: 61px;
+    height: 19px;
+    padding: 50px 0px;
+}
+
+
+/*** navigation ***/
+
+.headerBar-nav{
+    display: flex;
+    width: 200px ;
+    justify-content: space-between;
+}
+
+.headerBar-navItem{
+    padding: 15px 0px;
+    text-decoration: none;
+    border-top: 2px solid transparent;
+}
+
+.headerBar-navItem:hover{
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+}
