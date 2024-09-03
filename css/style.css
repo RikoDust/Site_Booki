@@ -186,6 +186,12 @@ a {
             padding: 0px 0px;
     }
 
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+
     /*** header ***/
     
     .headerBar-icon{
@@ -219,7 +225,7 @@ a {
     }
 
 
-    /*** trouvez hebergements ***/
+    /*** trouvez hebergements-search ***/
 
     .hebergements-and-populaires .hebergements {
         background-color: var(--white-color);
@@ -285,7 +291,6 @@ a {
         margin-left: 20px;
     }
 
-
     .info-line{
         font-size: 14px;
     }
@@ -294,9 +299,8 @@ a {
     /*** hebergements ***/
 
     .hebergements-title{
-        font-size: 20px;
+        font-size: 19px;
     }
-
 
     .hebergements-cards a{
         display: flex;
@@ -316,8 +320,15 @@ a {
         font-size: 13px;
     }
 
+    .see-more-button{
+        font-size: 17px;
+    }
 
     /*** populaires ***/
+
+    .populaires-title .section-title{
+        font-size: 19px;
+    }
 
     .hebergements-and-populaires .populaires{
         border-radius: 0px;
@@ -341,10 +352,9 @@ a {
     }
 
     .activités-Marseille .card-title{
-        font-size: 16px;
+        font-size: 15px;
         padding-left: 15px;
     }
-
 
     .activités-Marseille .activites-cards{
         display: flex;
@@ -376,6 +386,9 @@ a {
         width: 100%;
     }
 
+    footer{
+        font-size: 14px;
+    }
 
     
 }

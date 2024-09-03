@@ -72,8 +72,7 @@ input{
 .bouton-rechercher .icon-loupe{
     display: none;
 }
-
-/* penser au CSS pour le media query*/
+/* Modification d'affiche rechercher/loupe pour l version mobile - media query*/
 
 
 
