@@ -15,7 +15,7 @@
 
 /*** recherche ***/
 
-.bouton-rechercher{
+.button-rechercher{
     background-color: var(--main-color);
     color: var(--white-color);
     font-weight: 700;
@@ -69,7 +69,7 @@ input{
 
 /*** bouton recherche ***/
 
-.bouton-rechercher .icon-loupe{
+.button-rechercher .icon-loupe{
     display: none;
 }
 /* Modification d'affiche rechercher/loupe pour l version mobile - media query*/
@@ -82,10 +82,10 @@ input{
     display: flex;
     align-items: center;
     margin-top: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 1rem;
 }
 
-.filtres-zone-bouton{
+.filtres-zone-button{
     display: flex;
 }
 
@@ -95,7 +95,7 @@ input{
 }
 
 
-.filtres-bouton{
+.filtres-button{
     display: flex;
     align-items: center;
     border-radius: 25px;
@@ -110,12 +110,12 @@ input{
 }
 
 
-.filtres-bouton i{
+.filtres-button i{
     padding-right: 8px;
     font-size: 18px;
 }
 
-.filtres-bouton:hover{
+.filtres-button:hover{
     background-color: var(--filter-bg-color);
 }
 
@@ -136,6 +136,7 @@ input{
 .info-line{
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .info-line i{

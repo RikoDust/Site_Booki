@@ -183,7 +183,8 @@ a {
 @media (max-width: 767.98px) {
 
     .main-container{
-            padding: 0px 0px;
+        min-width: 320px;
+        padding: 0px 0px;
     }
 
 
@@ -232,12 +233,12 @@ a {
 
     }
     .trouvez-hebergement-title{
-        font-size: 21px;
+        font-size: 22px;
         margin-left: 20px;
     }
 
     .trouvez-hebergement-p{
-        font-size: 15px;
+        font-size: 16px;
         margin-left: 20px;
     }
   
@@ -250,17 +251,18 @@ a {
         width: 200px ;
     }
 
-    .bouton-rechercher{
+    .button-rechercher{
         width: 55px;
         height: 55px;
         border-radius: 15px 15px 15px 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     }
 
-    .bouton-rechercher .texte{
+    .button-rechercher .texte{
         display:none ;
     }
 
-    .bouton-rechercher .icon-loupe{
+    .button-rechercher .icon-loupe{
         display:inline-block ;
         color: var(--white-color);
     }
@@ -270,14 +272,15 @@ a {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        margin-bottom: 0.5rem;
     }
 
-    .filtres-zone-bouton{
+    .filtres-zone-button{
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .filtres-bouton{
+    .filtres-button{
         font-size: 14px;
         margin-bottom: 10px;
         margin-right: 0px;
@@ -292,7 +295,8 @@ a {
     }
 
     .info-line{
-        font-size: 14px;
+        font-size: 15px;
+        margin: 0px 12px;
     }
 
 
