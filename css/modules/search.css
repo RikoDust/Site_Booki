@@ -62,7 +62,7 @@ input{
     outline: none;
 }
 
-::placeholder{
+input::placeholder{
     color: var(--black-color);
 }
 

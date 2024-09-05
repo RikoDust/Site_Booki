@@ -217,6 +217,8 @@ a {
         text-decoration: none;
         border-top: none;
         border-bottom: 2px solid var(--main-bg-color);
+        width: 50%;
+        justify-content: center;
     }
 
     .headerBar-navItem:hover{
@@ -248,13 +250,14 @@ a {
     }
 
     .form-search input{
-        width: 200px ;
+        width: 60vw ;
+        margin-right: -15px;
     }
 
     .button-rechercher{
         width: 55px;
         height: 55px;
-        border-radius: 15px 15px 15px 15px;
+        border-radius: 15px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     }
 
