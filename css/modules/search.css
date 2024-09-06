@@ -102,15 +102,15 @@ input::placeholder{
     border: solid 2px var(--main-bg-color);
     background-color: var(--white-color);
     margin-right: 1rem;
-    padding: 10px 12px;
-    font-size: 19px;
+    padding: 12px 14px;
+    font-size: 17px;
     font-weight: bold;
 }
 
 
 .filtres-button i{
     padding-right: 8px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .filtres-button:hover{
