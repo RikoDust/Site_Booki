@@ -22,7 +22,7 @@
 .hebergements-cards a{
     display: flex;
     flex-direction: row;
-    width: 16rem;
+    width: 32%;
 }
 
 .hebergements-cards article{
