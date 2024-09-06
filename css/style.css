@@ -166,7 +166,7 @@ a {
     }
 
     .populaires-cards a {
-        width: 30%;
+        width: 20%;
     }
 
     .populaires-cards .card-title {
@@ -287,7 +287,7 @@ a {
         font-size: 14px;
         margin-bottom: 10px;
         margin-right: 0px;
-        width: 160px;
+        width: 45vw;
         justify-content: center;
         
     }
