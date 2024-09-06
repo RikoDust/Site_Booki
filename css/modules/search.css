@@ -72,7 +72,7 @@ input::placeholder{
 .button-rechercher .icon-loupe{
     display: none;
 }
-/* Modification d'affiche rechercher/loupe pour l version mobile - media query*/
+/* Modification d'affiche rechercher/loupe pour la version mobile -> media query*/
 
 
 
@@ -81,7 +81,7 @@ input::placeholder{
 .filtres-zone{
     display: flex;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -91,7 +91,7 @@ input::placeholder{
 
 
 .filtres-title{
-    margin-right: 15px;
+    margin-right: 1rem;
 }
 
 
@@ -101,11 +101,9 @@ input::placeholder{
     border-radius: 25px;
     border: solid 2px var(--main-bg-color);
     background-color: var(--white-color);
-    height: 50px;
-    margin-right: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 16px;
+    margin-right: 1rem;
+    padding: 10px 12px;
+    font-size: 19px;
     font-weight: bold;
 }
 
