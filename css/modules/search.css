@@ -62,8 +62,13 @@ input{
     outline: none;
 }
 
+
 input::placeholder{
-    color: var(--black-color);
+    color: black;
+}
+
+input::-moz-placeholder{
+    color: black;
 }
 
 
