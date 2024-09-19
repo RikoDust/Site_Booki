@@ -154,7 +154,7 @@ a {
     }
 
     .filtres-button{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .hebergements-and-populaires {
@@ -274,7 +274,7 @@ a {
     }
 
     .form-search input{
-        width: 60vw ;
+        width: 75% ;
         margin-right: -15px;
     }
 
@@ -312,8 +312,6 @@ a {
         margin-bottom: 10px;
         margin-right: 0px;
         width: 45vw;
-        justify-content: center;
-        
     }
 
     .filtres-title{

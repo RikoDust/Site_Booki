@@ -56,7 +56,6 @@ input{
     height: 49px;
     border: none;
     text-align: center;
-    font-weight: 700;
     border-top: 2px solid var(--main-bg-color);
     border-bottom: 2px solid var(--main-bg-color);
     outline: none;
@@ -114,7 +113,8 @@ input::-moz-placeholder{
 
 
 .filtres-button i{
-    padding-right: 8px;
+    padding-right: 0.6rem;
+    margin-left: 0.6rem;
     font-size: 17px;
 }
 
