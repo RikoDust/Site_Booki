@@ -269,12 +269,13 @@ a {
     }
   
     .form-search{
+        margin-left: 20px;
         display: flex;
-        justify-content: center;
+        width: 100%;
     }
 
     .form-search input{
-        width: 75% ;
+        width: 65%;
         margin-right: -15px;
     }
 

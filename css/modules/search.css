@@ -31,6 +31,7 @@
 
 .form-search{
     display: flex;
+    width: 100%;
     margin-top: 35px;
 }
 
@@ -91,6 +92,8 @@ input::-moz-placeholder{
 
 .filtres-zone-button{
     display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
