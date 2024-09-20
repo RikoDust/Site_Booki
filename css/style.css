@@ -270,12 +270,13 @@ a {
   
     .form-search{
         margin-left: 20px;
+        margin-right: 20px;
         display: flex;
         width: 100%;
     }
 
     .form-search input{
-        width: 65%;
+        width: 73%;
         margin-right: -15px;
     }
 
